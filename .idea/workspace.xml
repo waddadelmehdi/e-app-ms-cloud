@@ -5,10 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3068d2ee-2db8-44e2-baee-bc91d837eb07" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2024-11-17T134244.404.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2024-11-17T134511.200.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2024-11-17T134740.200.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-repo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-service/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-service/src/main/java/ma/wem/configservice/ConfigServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-service/src/test/java/ma/wem/configservice/ConfigServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/ma/wem/customerservice/config/ConfigTestRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/ma/wem/customerservice/config/CustomerConfigParams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/billing-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/ma/wem/customerservice/CustomerServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/ma/wem/customerservice/CustomerServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +45,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/config-repo" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -43,6 +64,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "HTTP Request.scratch_2 | GET request to example server.executor": "Run",
     "Notification.DisplayName-DoNotAsk-Database detector": "Database detector",
     "Notification.DoNotAsk-Database detector": "true",
     "RequestMappingsPanelOrder0": "0",
@@ -52,14 +74,15 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.BillingServiceApplication.executor": "Run",
+    "Spring Boot.ConfigServiceApplication.executor": "Run",
     "Spring Boot.CustomerServiceApplication.executor": "Run",
     "Spring Boot.DiscoveryServiceApplication.executor": "Run",
     "Spring Boot.GatewayServiceApplication.executor": "Run",
     "Spring Boot.InventoryServiceApplication.executor": "Run",
-    "git-widget-placeholder": "part1",
+    "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/springcloud/e-app-ms-cloud",
+    "last_opened_file_path": "C:/springcloud/e-app-ms-cloud/config-repo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -71,17 +94,35 @@
     "run.configurations.included.in.services": "true",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "HTTP Request"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\springcloud\e-app-ms-cloud\config-repo" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ma.wem.customerservice.entities" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.BillingServiceApplication">
+  <component name="RunManager" selected="Spring Boot.GatewayServiceApplication">
+    <configuration name="scratch_2 | GET request to example server" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.http" requestIdentifier="GET request to example server" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="BillingServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="billing-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ma.wem.billingservice.BillingServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="config-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ma.wem.configservice.ConfigServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,6 +155,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.scratch_2 | GET request to example server" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -135,7 +181,9 @@
       <workItem from="1731767375259" duration="7496000" />
       <workItem from="1731784755267" duration="480000" />
       <workItem from="1731785400731" duration="6846000" />
-      <workItem from="1731794573920" duration="8625000" />
+      <workItem from="1731794573920" duration="11228000" />
+      <workItem from="1731842513484" duration="1592000" />
+      <workItem from="1731844305709" duration="6669000" />
     </task>
     <servers />
   </component>
